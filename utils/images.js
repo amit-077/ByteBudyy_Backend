@@ -149,6 +149,83 @@ const images = [
       "https://res.cloudinary.com/dh2wmc2jz/image/upload/v1706869799/React_jniwxx.jpg",
     ],
   },
+  {
+    tag: "Ruby",
+    image: [
+      "https://res.cloudinary.com/dh2wmc2jz/image/upload/v1708772947/ruby-programming-meta-1683275779432_jft4k2.jpg",
+      "https://res.cloudinary.com/dh2wmc2jz/image/upload/v1708773065/Ruby-Programming-Tips-and-Tricks_o9poz4.jpg",
+    ],
+  },
+  {
+    tag: "SQLite",
+    image: [
+      "https://res.cloudinary.com/dh2wmc2jz/image/upload/v1708773313/images_mmaelb.png",
+      "https://res.cloudinary.com/dh2wmc2jz/image/upload/v1708773390/maxresdefault_jqs5ut.jpg",
+    ],
+  },
+  {
+    tag: "MongoDB",
+    image: [
+      "https://res.cloudinary.com/dh2wmc2jz/image/upload/v1708773463/kuztefjfmcr54smwt-Meta_Blogs_halgag.png",
+      "https://res.cloudinary.com/dh2wmc2jz/image/upload/v1708773660/kuzt9r42or1fxvlq2-Meta_Generic_twsniz.png",
+    ],
+  },
+  {
+    tag: "Java",
+    image: [
+      "https://res.cloudinary.com/dh2wmc2jz/image/upload/v1708773733/wallhaven-2y39jy_k1kmud.png",
+      "https://res.cloudinary.com/dh2wmc2jz/image/upload/v1708773797/1_pu_q-NQV_EnIHBgHdZsrXQ_fms6ge.png",
+    ],
+  },
+  {
+    tag: "Redis",
+    image: [
+      "https://res.cloudinary.com/dh2wmc2jz/image/upload/v1708773866/0_yPHMVJh2NBia_MQ-_dpntp1.jpg",
+      "https://res.cloudinary.com/dh2wmc2jz/image/upload/v1708773914/Discover-the-Many-Benefits-of-the-Redis-Database-scaled_gqhwjs.jpg",
+    ],
+  },
+  {
+    tag: "Typescript",
+    image: [
+      "https://res.cloudinary.com/dh2wmc2jz/image/upload/v1708773971/typescript_2d66c7c3_wbubxs.png",
+      "https://res.cloudinary.com/dh2wmc2jz/image/upload/v1708774039/1_VTW6T-7KkQHPjf4mtfQ0Zg_xdso6q.png",
+    ],
+  },
+  {
+    tag: "Dart",
+    image: [
+      "https://res.cloudinary.com/dh2wmc2jz/image/upload/v1708774119/08.20.20-What-is-Dart-and-how-is-it-used_wczlsl.jpg",
+      "https://res.cloudinary.com/dh2wmc2jz/image/upload/v1708774196/1_yV65kCLaqJY5zesHIcTpgw_cjzfyg.jpg",
+    ],
+  },
+  {
+    tag: "Flutter",
+    image: [
+      "https://res.cloudinary.com/dh2wmc2jz/image/upload/v1708774274/1_lt8tmPdknVSpx2tcL8HizQ_f7dtt0.png",
+      "https://res.cloudinary.com/dh2wmc2jz/image/upload/v1708774315/1_4vlkTJCWbP2Kh2vyK9BdEw_uecwwz.png",
+    ],
+  },
+  {
+    tag: "Laravel",
+    image: [
+      "https://res.cloudinary.com/dh2wmc2jz/image/upload/v1708774494/1_L5z2Oq39ecGqiAqvaXBk3Q_vwhoof.jpg",
+      "https://res.cloudinary.com/dh2wmc2jz/image/upload/v1708774533/OG-20_apgbcx.jpg",
+    ],
+  },
+  {
+    tag: "Angular",
+    image: [
+      "https://res.cloudinary.com/dh2wmc2jz/image/upload/v1708774615/angular-feature-image_spv68w.png",
+      "https://res.cloudinary.com/dh2wmc2jz/image/upload/v1708774683/angular-space-background-vc7d1crgo8a2pzou_dy0ft5.jpg",
+    ],
+  },
+  {
+    tag: "Cyber security",
+    image: [
+      "https://res.cloudinary.com/dh2wmc2jz/image/upload/v1708774826/digital-padlock-with-hud-virtual-screen-on-blue-background-cyber-security-technology-and-privacy-data-network-protection-concept-vector_kedyxk.jpg",
+      "https://res.cloudinary.com/dh2wmc2jz/image/upload/v1708774900/India-s-cybersecurity-challenges-can-be-divided-in_1683035049337_tmteb3.jpg",
+    ],
+  },
 ];
 
 module.exports = { images };
