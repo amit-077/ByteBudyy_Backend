@@ -226,6 +226,97 @@ const images = [
       "https://res.cloudinary.com/dh2wmc2jz/image/upload/v1708774900/India-s-cybersecurity-challenges-can-be-divided-in_1683035049337_tmteb3.jpg",
     ],
   },
+  {
+    tag: "Security",
+    image: [
+      "https://res.cloudinary.com/dh2wmc2jz/image/upload/v1708774826/digital-padlock-with-hud-virtual-screen-on-blue-background-cyber-security-technology-and-privacy-data-network-protection-concept-vector_kedyxk.jpg",
+      "https://res.cloudinary.com/dh2wmc2jz/image/upload/v1708774900/India-s-cybersecurity-challenges-can-be-divided-in_1683035049337_tmteb3.jpg",
+    ],
+  },
+  {
+    tag: "API",
+    image: [
+      "https://res.cloudinary.com/dh2wmc2jz/image/upload/v1709056722/application-programming-interface-api-design-600nw-2227417651_zn4qm9.jpg",
+      "https://res.cloudinary.com/dh2wmc2jz/image/upload/v1709056770/apiapplication-programming-interface-concept_387612-433_zh8mst.jpg",
+    ],
+  },
+  {
+    tag: "Reactjs",
+    image: [
+      "https://res.cloudinary.com/dh2wmc2jz/image/upload/v1709056829/5c7b53a7be1dd267f24f7559584d1345_dazgnl.jpg",
+      "https://res.cloudinary.com/dh2wmc2jz/image/upload/v1709056877/react-js_x6rr9m.jpg",
+    ],
+  },
+  {
+    tag: "Operating Systems",
+    image: [
+      "https://res.cloudinary.com/dh2wmc2jz/image/upload/v1709056954/360_F_551496879_y5S2z9HwRRpebt3t4BBhBwPGnpagUoTC_kd5ugu.jpg",
+      "https://res.cloudinary.com/dh2wmc2jz/image/upload/v1709056998/120155669-operating-system-word-cloud-technology-concept-background_wfcv3m.jpg",
+    ],
+  },
+  {
+    tag: "Linux",
+    image: [
+      "https://res.cloudinary.com/dh2wmc2jz/image/upload/v1709057050/linux-adreajudr0n7ad5a_toma4w.jpg",
+      "https://res.cloudinary.com/dh2wmc2jz/image/upload/v1709057079/zGciGXd_jyhpro.jpg",
+    ],
+  },
+  {
+    tag: "Open source",
+    image: [
+      "https://res.cloudinary.com/dh2wmc2jz/image/upload/v1709057383/open_source_wallpaper_by_pawel10_d7kld7y-fullview.jpg_ax5qwm.jpg",
+      "https://res.cloudinary.com/dh2wmc2jz/image/upload/v1709057404/open-source-handwritten-with-related-word-cloud_cteufg_csjmhn.png",
+    ],
+  },
+  {
+    tag: "AI",
+    image: [
+      "https://res.cloudinary.com/dh2wmc2jz/image/upload/v1709057500/ai-technology-microchip-background-digital-transformation-concept_53876-124669_ylglbb.jpg",
+      "https://res.cloudinary.com/dh2wmc2jz/image/upload/v1709057548/abstract-artificial-intelligence-ai-technology-invention-research-or-analysis-develop-future-ai-on-blue-background-futuristic-technology-modern-vector_opysqn.jpg",
+    ],
+  },
+  {
+    tag: "Generative AI",
+    image: [
+      "https://res.cloudinary.com/dh2wmc2jz/image/upload/v1709057620/artificial-intelligence-metaverse-background-banner-showing-ai-technology-generative-ai_620624-6970_g7wlq3.jpg",
+      "https://res.cloudinary.com/dh2wmc2jz/image/upload/v1709057654/ai-technology-brain-background-digital-transformation-concept-1-1_d5luop.jpg",
+    ],
+  },
+  {
+    tag: "AR/VR",
+    image: [
+      "https://res.cloudinary.com/dh2wmc2jz/image/upload/v1709057713/virtual-1_uwgeap.jpg",
+      "https://res.cloudinary.com/dh2wmc2jz/image/upload/v1709057768/regular_1708x683_cover-VR-05aaf35cae5fa88bf54a4adc83eee285_zrpdrm.png",
+    ],
+  },
+  {
+    tag: "Data Science",
+    image: [
+      "https://res.cloudinary.com/dh2wmc2jz/image/upload/v1709057828/360_F_262173764_3sxll45SOaGP5uEC7PukV3LHOB7H8dp2_yttrgr.jpg",
+      "https://res.cloudinary.com/dh2wmc2jz/image/upload/v1709057883/data-science-deep-learning-artificial-intelligence-analysis-internet-modern-technology-concept-130068639_kpvzrd.jpg",
+    ],
+  },
+  {
+    tag: "Android",
+    image: [
+      "https://res.cloudinary.com/dh2wmc2jz/image/upload/v1709057961/new-york-usa-july-2-600nw-1137339098_esowvs.jpg",
+      "https://res.cloudinary.com/dh2wmc2jz/image/upload/v1709058013/android-developer-ledu48pvwl9fgxzw_thc0i1.jpg",
+    ],
+  },
+  {
+    tag: "Nodejs",
+    image: [
+      "https://res.cloudinary.com/dh2wmc2jz/image/upload/v1709058102/image_csqbdr.png",
+      "https://res.cloudinary.com/dh2wmc2jz/image/upload/v1709058166/nodejs-app-background-service_qt8fyw.jpg",
+    ],
+  },
+  {
+    tag: "GraphQL",
+    image: [
+      "https://res.cloudinary.com/dh2wmc2jz/image/upload/v1709058291/1_G5SHJcfMXtofKwJmQmlB2A_t04ubh.jpg",
+      "https://res.cloudinary.com/dh2wmc2jz/image/upload/v1709058330/gaphql-posthero_blbhjt.jpg",
+    ],
+  },
 ];
 
 module.exports = { images };
