@@ -14,7 +14,6 @@ const googleLogin = async (req, res) => {
 
     if (userExists.googleAuth && md5(userExists.email) == userExists.password) {
       const token = createToken(userExists._id);
-      console.log(token);
 
       const { name, email, _id } = userExists;
       let newUser = { _id, name, email, token };

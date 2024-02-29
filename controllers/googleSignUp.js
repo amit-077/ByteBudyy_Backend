@@ -23,7 +23,6 @@ const googleSignUp = async (req, res) => {
     });
 
     const token = createToken(data._id);
-    console.log(token);
 
     if (data) {
       const { name, email, _id } = data;

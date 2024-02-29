@@ -19,6 +19,8 @@ const { getAllQuestions } = require("./controllers/getAllQuestions");
 const { Question } = require("./Database/models/Questions");
 const { googleSignUp } = require("./controllers/googleSignUp");
 const { googleLogin } = require("./controllers/googleLogin");
+const { clearCache } = require("./controllers/clearCache");
+
 const app = express();
 dotenv.config();
 
@@ -36,14 +38,14 @@ app.post("/saveItem", authenticateUser, saveItem);
 app.post("/contribute", contribution);
 app.post("/addQuestion", addQuestion);
 app.post("/googleSignUp", googleSignUp);
-app.post("/googleLogin", googleLogin)
+app.post("/googleLogin", googleLogin);
 
 //get requests
 app.get("/getFeed", authenticateUser, getFeed);
 app.get("/getSavedItems", authenticateUser, getSavedItems);
 app.get("/getAllSaved", authenticateUser, getAllSaved);
 app.get("/getAllQuestions", getAllQuestions);
-
+app.get("/clearCache", clearCache)
 // testing
 app.get("/", (req, res) => {
   res.send("CoderBytes is working");

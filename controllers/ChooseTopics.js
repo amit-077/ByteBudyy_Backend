@@ -1,4 +1,5 @@
 const { User } = require("../Database/models/User");
+const { setValue } = require("../Redis/redis");
 
 const updateTopics = async (req, res) => {
   try {
@@ -13,6 +14,9 @@ const updateTopics = async (req, res) => {
     );
 
     if (user) {
+      // Cache the data (start)
+      setValue(req.user, null);
+      // Cache the data (end)
       res.status(200).json(user);
     }
   } catch (e) {
