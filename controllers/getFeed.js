@@ -6,13 +6,13 @@ const { shuffleArray } = require("../utils/shuffleArray");
 
 const getFeed = async (req, res) => {
   try {
-    // let cachedData = getValue(req.user);
-    // if (cachedData) {
-    //   const shuffledConcepts = shuffleArray(cachedData);
-    //   console.log("Using cached Data");
-    //   res.status(200).send(shuffledConcepts);
-    //   return;
-    // }
+    let cachedData = getValue(req.user);
+    if (cachedData) {
+      const shuffledConcepts = shuffleArray(cachedData);
+      console.log("Using cached Data");
+      res.status(200).send(shuffledConcepts);
+      return;
+    }
 
     const user = await User.findOne({ _id: req.user });
     const userFeed = user.feed;
