@@ -11,4 +11,4 @@ const getValue = (key) => {
   return data;
 };
 
-module.exports = { setValue,getValue, myCache};
+module.exports = { setValue, getValue, myCache };
