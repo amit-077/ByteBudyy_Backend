@@ -6,9 +6,9 @@ const googleLogin = async (req, res) => {
   try {
     let { email } = req.body;
 
-    const userExists = await User.findOne({ email });
+    const userExists = await User.findOne({ email, name });
     if (!userExists) {
-      res.status(400).send("Please create an account");
+      res.status(402).send("Please create an account");
       return;
     }
 
