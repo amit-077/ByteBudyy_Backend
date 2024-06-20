@@ -1,5 +1,6 @@
 const { Concept } = require("../Database/models/Concept");
 const { Question } = require("../Database/models/Questions");
+const { Quiz } = require("../Database/models/Quiz");
 const { User } = require("../Database/models/User");
 const { setValue, getValue } = require("../Redis/redis");
 const { shuffleArray } = require("../utils/shuffleArray");
@@ -21,7 +22,9 @@ const getFeed = async (req, res) => {
         ? await Concept.find()
         : await Concept.find({ tag: { $in: userFeed } });
     const questions = await Question.find();
-    const newArray = [...concepts, ...questions];
+    const quiz = await Quiz.find();
+    const newArray = [...concepts, ...questions, ...quiz];
+    console.log(newArray);
     // Cache the data (start)
     setValue(req.user, newArray);
     // Cache the data (end)
